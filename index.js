@@ -8,6 +8,11 @@ let getpassword1=""
 let getpassword2=""
 
 function getpasswords() {
+    let getpassword1=""
+    let getpassword2=""
+    let getpassword1El=document.getElementById("getpassword1")
+    let getpassword2El=document.getElementById("getpassword2")
+    
     for (let i = 0; i < passwordLength; i++){
         let newpassword = Math.floor(Math.random() * characters.length);
         getpassword1+=characters[newpassword];
