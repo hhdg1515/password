@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+.body {
+    background-color:black;
+
 .container {
     height: 550px;
     width: 550px;
