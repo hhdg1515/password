@@ -16,4 +16,7 @@ function getpasswords() {
         getpassword1El.innerText=getpassword1;
         getpassword2El.innerText=getpassword2;
     }
- btnEL.addEventListener("click", getpasswords);
+
+ btnEL.addEventListener("click", function() {
+     getpasswords()
+ })
