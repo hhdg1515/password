@@ -51,7 +51,11 @@ button {
 }
 
 button:hover {
-    text-shadow: 1px 1px white;
+    background-color:darkgreen;
+}
+
+button:active {
+    background-color:black;
 }
 
 #getpassword1, #getpassword2 {
