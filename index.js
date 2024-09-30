@@ -3,6 +3,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let btnEL=document.getElementById("button");
 let getpassword1El=document.getElementById("getpassword1");
 let getpassword2El=document.getElementById("getpassword2");
+let passwordLength = 16;
 
 function getpasswords() {
     let getpassword1="";
