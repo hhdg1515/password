@@ -8,10 +8,9 @@ html {
 }
 
 .container {
-    height: 550px;
-    width: 550px;
-    margin: 64px auto;
-    padding: 160px 52px;
+    margin: 100px auto;
+    height: 800px;
+    width: 800px;
     background: rgba(31, 41, 55, 1);
 }
 
