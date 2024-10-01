@@ -13,8 +13,8 @@ function getpasswords() {
         password1+=characters[newpassword];
         password2+=characters[newpassword];
         }
-        getpassword1El.textContent=getpassword1;
-        getpassword2El.textContent=getpassword2;
+        getpassword1El.textContent=password1;
+        getpassword2El.textContent=password2;
 }
 
  btnEL.addEventListener("click", function() {
