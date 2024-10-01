@@ -6,17 +6,17 @@ let getpassword2El=document.getElementById("getpassword2");
 let passwordLength = 16;
 
 function getpasswords() {
-    let getpassword1="";
-    let getpassword2="";
+    let password1="";
+    let password2="";
     for (let i = 0; i < passwordLength; i++){
         let newpassword = Math.floor(Math.random() * characters.length);
-        getpassword1+=characters[newpassword];
-        getpassword2+=characters[newpassword];
+        password1+=characters[newpassword];
+        password2+=characters[newpassword];
         }
-        getpassword1El.innerText=getpassword1;
-        getpassword2El.innerText=getpassword2;
-    }
+        getpassword1El.textContent=getpassword1;
+        getpassword2El.textContent=getpassword2;
+}
 
  btnEL.addEventListener("click", function() {
      getpasswords()
- })
+})
