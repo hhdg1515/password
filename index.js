@@ -3,6 +3,10 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let btnEL=document.getElementById("button");
 let getpassword1El=document.getElementById("getpassword1");
 let getpassword2El=document.getElementById("getpassword2");
+const container=document.getElementById("container")
+const line1=document.getElementById("line1")
+const h2=document.getElementById("h2")
+
 let passwordLength = 16;
 
 function getpasswords() {
@@ -20,3 +24,11 @@ function getpasswords() {
  btnEL.addEventListener("click",()=> {
      getpasswords()
 })
+
+
+modeBtn.addEventListener('click', function(){
+    container.classList.toggle('reverse')
+    line1.classList.toggle('reverse-h1')
+    h2.classList.toggle('reverse-h2')
+})
+
