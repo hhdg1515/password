@@ -15,21 +15,29 @@ html {
     background: rgba(31, 41, 55, 1);
 }
 
+.reverse{
+  background-color: #ECFDF5;
+}
+
+.reverse-h1{
+  color:black;
+}
+
+.reverse-h2{
+  color: #6B7280;
+}
+
 h1 {
     font-size: 40px;
     font-weight: 800;
-    line-height: 40px
+    line-height: 40px;
+    color: white;
 }
 
 h2 {
      font-size: 24px;
      color: rgba(213, 212, 216, 1);
      margin-top: 10px;
-}
-
-.line1 {
-    color: white;
-    margin-top:0px
 }
 
 .line2 {
@@ -50,12 +58,21 @@ button {
     weight:500;
 }
 
-button:hover {
+#modeBtn{
+  background-color:#273549;
+  color:white;
+  margin-left:24px;
+  padding: 9px 12px;
+  border:  0.5px solid white;
+}
+
+button:hover,{
     background-color:darkgreen;
 }
 
-button:active {
+button:active,#modeBtn:active {
     background-color:black;
+    color: whitesmoke;
 }
 
 #getpassword1, #getpassword2 {
